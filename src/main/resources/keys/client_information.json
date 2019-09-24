@@ -1,0 +1,17 @@
+
+{
+  "web": {
+    "client_id": "944011733454-sokhst54g7rqpk9dt3g86ka9sh0fq7ct.apps.googleusercontent.com",
+    "project_id": "oauthssdfileupload",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://www.googleapis.com/oauth2/v3/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "E6G0-bZezjxm7wmQfHckkj2Q",
+    "redirect_uris": [
+      "http://127.0.0.1:8080/oauth"
+    ],
+    "javascript_origins": [
+      "http://127.0.0.1:8080"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<title>Doc Gallery</title>
+</head>
+
+<body background="images/silver.jpg">
+	<div class="jumbotron" style="margin: 50px;">
+		<div align="right">
+			<a href="/logout" align="right-top">Logout</a>
+		</div>
+		<div class="container" align="center">
+			<div>
+				<h2 class="display-4">SSD Google Drive Doc Collector</h2>
+				<hr class="my-4">
+			</div>
+			<br>
+			<form id="imageUpload" method="POST" action="/upload" enctype="multipart/form-data">
+				<div class="text-left">
+					<input type="file" id="files" name="file" width="50" height="17"
+						data-multiple-caption="{count} files selected" multiple />
+					<div class="text-left">
+						<br />
+						<output id="selectedFiles"></output>
+					</div>
+				</div>
+				<br /> <input id="uploadButton" type="button" class="btn btn-success" value="Upload" /> <input
+					id="resetButton" type="button" class="btn btn-info" value="Reset" /> <br /> <br />
+				<div id='progressBar' style='height: 35px; border: 1px solid green;'>
+					<div id='bar' class="progress-bar bg-success" style='height: 100%; width: 0%'
+						data-percentage="100"></div>
+				</div>
+			</form>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted text-right">Ranjitha Logarathnam | IT16073388 | SSD ASSIGNMENT 2</p>
+			</div>
+		</footer>
+	</div>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootbox.min.js"></script>
+	<script type="text/javascript" src="js/upload.js"></script>
+</body>
+</html>
